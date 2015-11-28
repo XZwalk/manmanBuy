@@ -1,0 +1,17 @@
+//
+//  MallListCell.h
+//  Class2509
+//
+//  Created by 张祥 on 15/7/16.
+//  Copyright (c) 2015年 张祥. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "MallList.h"
+@interface MallListCell : UITableViewCell
+
+
+@property (nonatomic, retain) MallList *mallList;
+
+
+@end
